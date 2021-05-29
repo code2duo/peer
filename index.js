@@ -1,6 +1,6 @@
 const { PeerServer } = require('peer');
 
-const peerServer = PeerServer({ port: 8000, path: '/peer' });
+const peerServer = PeerServer({ port: 5000, path: '/' });
 
 peerServer.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*");
