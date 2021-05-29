@@ -1,0 +1,22 @@
+{
+  "name": "peer",
+  "version": "1.0.0",
+  "description": "Private Peer Server for RTC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code2duo/peer.git"
+  },
+  "author": "Debdut Goswami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code2duo/peer/issues"
+  },
+  "homepage": "https://github.com/code2duo/peer#readme",
+  "dependencies": {
+    "peer": "^0.6.1"
+  }
+}
